@@ -32,6 +32,8 @@ class FavoriteProductActivity : AppCompatActivity() {
         productAdapter = ProductAdapter { product -> productDatabase.delete(product) }
         recyclerView.adapter = productAdapter
         recyclerView.layoutManager = LinearLayoutManager(this)
+        val products = productDatabase.getAll()
+        productAdapter.submitList(products)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
