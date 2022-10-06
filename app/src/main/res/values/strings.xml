@@ -3,4 +3,6 @@
     <string name="branding_logo_alt">Branding logo</string>
     <string name="find_product_btn_label">Find Product</string>
     <string name="favorite_products_btn_label">Favorite Products</string>
+    <string name="product_name_edit_text_label">Name</string>
+    <string name="search_button_label">Search</string>
 </resources>
