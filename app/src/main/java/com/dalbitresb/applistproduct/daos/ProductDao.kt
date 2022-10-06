@@ -1,9 +1,6 @@
 package com.dalbitresb.applistproduct.daos
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 import com.dalbitresb.applistproduct.models.Product
 
 @Dao
@@ -13,4 +10,7 @@ interface ProductDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(product: Product)
+
+    @Delete
+    fun delete(product: Product)
 }
