@@ -7,4 +7,6 @@
     <string name="search_button_label">Search</string>
     <string name="product_image_default_alt">Product Image</string>
     <string name="favorite_button_label">Add to Favorites</string>
+    <string name="find_products_activity_title">Find Products</string>
+    <string name="favorite_products_activity_title">Favorite Products</string>
 </resources>
